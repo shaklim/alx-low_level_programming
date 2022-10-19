@@ -1,9 +1,9 @@
-#include "putchar.h"
+#include "main.h"
 /**
- * main - prints
- * Return: suject
+ * print_alphabet - prints the english alphabet from a-z.
+ * Return: Nothing.
  */
-int main void print_alphabet(void)
+void print_alphabet(void)
 {
 	char c;
 
@@ -11,6 +11,5 @@ int main void print_alphabet(void)
 	{
 		_putchar(c);
 	}
-
 	_putchar('\n');
 }
