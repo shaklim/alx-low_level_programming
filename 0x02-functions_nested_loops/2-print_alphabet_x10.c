@@ -1,4 +1,4 @@
-#include "Shakur.h"
+#include "main.h"
 /**
  * print_alphabet_x10 - repeats the print_alphabet
  * return: al[hbaet
