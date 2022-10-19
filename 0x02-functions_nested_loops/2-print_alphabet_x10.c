@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * print_alphabet_x10 - repeats the print_alphabet
- * return: al[hbaet
+ * Return: Nothing.
  */
-int main void print_alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	int i;
 
@@ -17,6 +17,4 @@ int main void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 	}
-
-	return (print_alphabet_x10);
 }
