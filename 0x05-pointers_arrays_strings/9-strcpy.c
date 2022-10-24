@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * char *_strcpy - a function that copies
+ * _strcpy - Copy a string
  * @dest: copy to
  * @src: copy from
+ *
  * Return: string
  */
 
@@ -15,6 +16,8 @@ char *_strcpy(char *dest, char *src)
 	{
 		dest[i] = src[i];
 	}
+
+	dest[i++] = '\0';
 
 	return (dest);
 }
