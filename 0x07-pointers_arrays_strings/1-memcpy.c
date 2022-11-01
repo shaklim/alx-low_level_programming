@@ -11,12 +11,12 @@
  */
 void *_memcpy(void *dest, const void *src, size_t n)
 {
-	unsigned int index;
-	unsigned char *destination = dest;
-	const unsigned char *source = src;
+	unsigned int a;
 
-	for (index = 0; index < n; index++)
-		destination[index] = source[index];
+	for (a = 0; a < n; a++)
+	{
+		dest[a] = src[a];
+	}
 
 	return (dest);
 }
